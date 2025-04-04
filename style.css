@@ -20,6 +20,7 @@ body {
 /* common styles */
 img {
     width: 100%;
+    border-radius: 50%;
 }
 a {
     text-decoration: none;
@@ -99,7 +100,7 @@ a {
     gap: 2rem;
 }
 .profile_profileImg {
-    max-width: 250px;
+    max-width: 200px;
 }
 .profile_name {
     color: var(--primary-color);
@@ -160,10 +161,10 @@ a {
 
 /* socials */
 .social_items {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .social_item {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
     display: flex;
     gap: 0.5rem;
@@ -182,7 +183,7 @@ hr {
     grid-column: 1/-1;
     width: 100%;
     margin: 1 auto;
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     border: none;
     border-top: 2px solid rgba(128, 128, 128, 0.229);
