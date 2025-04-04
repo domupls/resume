@@ -101,6 +101,7 @@ a {
 }
 .profile_profileImg {
     max-width: 200px;
+    border-radius: 50%;
 }
 .profile_name {
     color: var(--primary-color);
