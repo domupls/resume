@@ -194,3 +194,24 @@ hr {
         margin: 0 auto;
     }
 }
+
+button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: var(--text-color);
+  }
+
+  @media print {
+    button {
+      display: none;
+    }
+  }
