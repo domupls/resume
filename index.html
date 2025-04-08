@@ -15,6 +15,7 @@
         <div class="profile_container">
             <div class="profile_profileImg">
               <img src="./images/profile_pic.jpeg" alt="dominika_sidlova">
+              <button onclick="window.print()">Download CV</button>
             </div>
           <div>
             <h1 class="profile_name">Bc. Dominika Šídlová</h1>
@@ -48,13 +49,9 @@
           </div>
         </div>
       </div>
-            <!-- <button onclick="window.print()">Download CV</button> -->
-            <button id="download-pdf">Download CV</button>
           </div>
         </div>
       </div>
-
-
       <div class="group-1">
         <div class="skills">
           <h3 class="title">Skills</h3>
@@ -143,19 +140,5 @@
     <script>
       feather.replace()
     </script>
-    <script>
-      document.getElementById('download-pdf').addEventListener('click', () => {
-        const element = document.getElementById('container');
-        const opt = {
-          margin:       0.3,
-          filename:     'sidlova_cv.pdf',
-          image:        { type: 'jpeg', quality: 0.98 },
-          html2canvas:  { scale: 2 },
-          jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
-        };
-        html2pdf().set(opt).from(element).save();
-      });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   </body>
 </html>
