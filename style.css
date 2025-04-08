@@ -21,6 +21,7 @@ body {
 img {
     width: 100%;
     border-radius: 50%;
+    display: block;
 }
 a {
     text-decoration: none;
@@ -102,6 +103,10 @@ a {
 .profile_profileImg {
     max-width: 200px;
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .profile_name {
     color: var(--primary-color);
